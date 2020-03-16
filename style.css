@@ -517,6 +517,9 @@ footer {
     .prev, .next {
         color: var(--heading);
     }
+    .price-box {
+        margin: 10px;
+    }
   }
 
   /*
@@ -817,6 +820,9 @@ em {
   }
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 768px){
+    .price-box {
+        margin: 10px;
+    }
       .main-bg-img {
         background-size: cover;
       }
@@ -1165,3 +1171,35 @@ img {vertical-align: middle;}
     transform: scaleX(0);
   }
 
+  /*IPHONE 5*/
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .price-box {
+        margin: 5px;
+    }
+    .main-title {
+        margin-top: 250px;
+    }
+}
+
+/*IPHONE 6*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .main-title {
+        margin-top: 300px;
+    }
+}
+/*IPAD*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.main-title {
+    margin-top: 450px;
+}
+}
