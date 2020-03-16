@@ -182,6 +182,9 @@
 }
 
 /*BUTTON */
+.btn-auto {
+    width: auto;
+}
 .btn-next-project {
     color: var(--heading);
     text-align: center;
