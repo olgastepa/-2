@@ -613,10 +613,9 @@ footer {
       margin-bottom: 50px;
       background-attachment: fixed;
       background-size: cover;
-      -webkit-background-size: 100%; 
-      -moz-background-size: 100%; 
-      -o-background-size: 100%; 
-      background-size: 100%; 
+      -webkit-background-size: cover; 
+      -moz-background-size: cover; 
+      background-size: cover; 
       -webkit-background-size: cover; 
       -moz-background-size: cover; 
       -o-background-size: cover; 
@@ -818,6 +817,9 @@ em {
   }
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 768px){
+      .main-bg-img {
+        background-size: cover;
+      }
     /* Show Hamburger */
     #page-nav label {
       display: inline-block;
