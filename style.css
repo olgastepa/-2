@@ -489,11 +489,9 @@ footer {
   }
 
 .project-container {
-    border: 2px solid blue;
     justify-content: space-between!important;
 }
 .project-desc {
-    border: 1px solid green;
     width: 50%;
     margin: auto;
 }
@@ -826,6 +824,9 @@ em {
   }
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 768px){
+    .prev, .next {
+        color: var(--heading)!important;
+    }
     .price-box {
         margin: 10px;
     }
@@ -957,7 +958,6 @@ em {
 .slideshow-container {
     width: 100%!important;
 }
-
 .project-class-container {
     flex-direction: column;
     height: 500px;
@@ -992,7 +992,26 @@ img {vertical-align: middle;}
   width: 48%;
   height: 500px;
   position: relative;
-
+  border: 1px solid red;
+}
+.dot-container {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid red;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 .slideshow-video {
     width: 350px;
@@ -1033,7 +1052,7 @@ img {vertical-align: middle;}
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 15px;
   margin-top: -22px;
   color: var(--lightblue);
   font-weight: bold;
@@ -1052,6 +1071,7 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: var(--lightblue);
   color: white;
+  border-radius: 50%;
 }
 
 /*MENU ANIMATION*/
@@ -1199,6 +1219,10 @@ img {vertical-align: middle;}
     .main-title {
         margin-top: 300px;
     }
+    /*TOUCH SCREEN TEST*/
+    .mySlides1 {
+    overflow-x: scroll;
+}
 }
 /*IPAD*/
 @media only screen 
