@@ -177,6 +177,7 @@
     font-family: var(--text-font-family);
     color: (var(--bodytext));
     text-align: center;
+    font-size: 12pt;
 }
 
 /*BUTTON */
@@ -332,14 +333,18 @@ td {
 
 /*CONTACT PAGE*/
 .contact-container {
-    width: 350px;
+    width: 70vw;
     margin: auto;
     height: auto;
     justify-content: space-between!important;
 }
 .contact-box {
     text-decoration: none;
-    width: 150px;
+    width: 170px;
+    margin: 15px;
+}
+.contact-img {
+    width: 70px
 }
 .contact-title {
     color: var(--bodytext);
@@ -606,24 +611,25 @@ footer {
       background-repeat: no-repeat;
       margin-bottom: 50px;
       background-attachment: fixed;
+      background-size: cover;
   } 
   .home-page {
-    background-image: url(assets/главная/главная.png);
+    background-image: url(assets/главная/главная.jpg);
   }
   .about-page {
-      background-image: url(assets/онас/о-нас.png);
+      background-image: url(assets/онас/о-нас.jpg);
   }
   .project-page {
-    background-image: url(assets/проекты/проекты.png);
+    background-image: url(assets/проекты/проекты.jpg);
   }
   .contact-page {
-    background-image: url(assets/контакты/контакты.png);     
+    background-image: url(assets/контакты/контакты.jpg);    
   }
   .project-public-page {
-    background-image: url(assets/проекты/промышленные-проекты/промышленные-объекты.png);     
+    background-image: url(assets/проекты/промышленные-проекты/промышленные-объекты.jpg);     
   }
   .project-private-page {
-    background-image: url(assets/проекты/частные-проекты/частные-объекты.png);
+    background-image: url(assets/проекты/частные-проекты/частные-объекты.jpg);
   }
 /*ABOUT PAGE*/
 .devided-container {
@@ -668,6 +674,8 @@ em {
 .devided-list-li {
     padding-bottom: 25px;
     font-family: var(--text-font-family);
+    color: (var(--bodytext));
+    font-size: 12pt;
 }
 
 /*PROJECT PAGE*/
@@ -780,13 +788,16 @@ em {
         width: 100%;
     }
     .pictures-container{
-        margin-right: 0; 
+        margin-left: 0!important;
     }
     .order-right .text-container {
         order: inherit;
     }
     .video-section {
         flex-direction: column!important;
+    }
+    .responsive-subehading{
+        margin-top: 50px!important;
     }
     .video-desc {
         width: 100%;
@@ -878,7 +889,9 @@ em {
     font-size: 30pt;
     margin-left: 10px;
 }
-
+.contact-container {
+    justify-content: center!important;
+}
 /*INDEX PAGE*/
 .devided-container  {
     flex-direction: column!important;
