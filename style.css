@@ -1201,12 +1201,6 @@ img {vertical-align: middle;}
     .main-bg-img {
         background-attachment: scroll;
     }
-    .home-page {
-        background-image: url(assets/мобьльные-устройства/главная-парк2.png);
-    }
-    .about-page {
-        background-image: url(assets/мобьльные-устройства/о-нас-парк2.png);
-    }
 }
 
 /*IPHONE 6*/
