@@ -1188,24 +1188,6 @@ img {vertical-align: middle;}
     .main-title {
         margin-top: 250px;
     }
-   /* .home-page {
-        background-image: url(assets/мобьльные-устройства/главная-парк2.png);
-      }
-      .about-page {
-          background-image: url(assets/мобьльные-устройства/о-нас-парк2.png);
-      }
-      .project-page {
-        background-image: url(assets/мобьльные-устройства/проекты-парк2.png);
-      }
-      .contact-page {
-        background-image: url(assets/мобьльные-устройства/контакты-парк2.png);    
-      }
-      .project-public-page {
-        background-image: url(assets/мобьльные-устройства/промышленные-объекты-парк2.png);     
-      }
-      .project-private-page {
-        background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-      } */
 }
 
 /*IPHONE 6*/
@@ -1221,47 +1203,6 @@ img {vertical-align: middle;}
     .mySlides1 {
     overflow-x: scroll;
 }
-/*
-.home-page {
-    background-image: url(assets/мобьльные-устройства/главная-парк2.png);
-  }
-  .about-page {
-      background-image: url(assets/мобьльные-устройства/о-нас-парк2.png);
-  }
-  .project-page {
-    background-image: url(assets/мобьльные-устройства/проекты-парк2.png);
-  }
-  .contact-page {
-    background-image: url(assets/мобьльные-устройства/контакты-парк2.png);    
-  }
-  .project-public-page {
-    background-image: url(assets/мобьльные-устройства/промышленные-объекты-парк2.png);     
-  }
-  .project-private-page {
-    background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-  } */
-}
-
-/*IPHONE 7*/
-/*
-.home-page {
-    background-image: url(assets/мобьльные-устройства/главная-парк2.png);
-  }
-  .about-page {
-      background-image: url(assets/мобьльные-устройства/о-нас-парк2.png);
-  }
-  .project-page {
-    background-image: url(assets/мобьльные-устройства/проекты-парк2.png);
-  }
-  .contact-page {
-    background-image: url(assets/мобьльные-устройства/контакты-парк2.png);    
-  }
-  .project-public-page {
-    background-image: url(assets/мобьльные-устройства/промышленные-объекты-парк2.png);     
-  }
-  .project-private-page {
-    background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-  } */
 /*IPAD*/
 @media only screen 
   and (min-device-width: 768px) 
