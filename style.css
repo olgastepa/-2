@@ -626,12 +626,13 @@ footer {
       -moz-background-size: cover; 
       -o-background-size: cover; 
       background-size: cover;
+      background-color: red;
   } 
   .home-page {
     background-image: url(assets/главная/главная.jpg);
   }
   .about-page {
-      background-image: url(assets/онас/о-нас.jpg);
+    background-image: url(assets/онас/о-нас.jpg);
   }
   .project-page {
     background-image: url(assets/проекты/проекты.jpg);
