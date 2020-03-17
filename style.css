@@ -1187,7 +1187,7 @@ img {vertical-align: middle;}
     .main-title {
         margin-top: 250px;
     }
-    .home-page {
+   /* .home-page {
         background-image: url(assets/мобьльные-устройства/главная-парк2.png);
       }
       .about-page {
@@ -1204,7 +1204,7 @@ img {vertical-align: middle;}
       }
       .project-private-page {
         background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-      }
+      } */
 }
 
 /*IPHONE 6*/
@@ -1220,6 +1220,7 @@ img {vertical-align: middle;}
     .mySlides1 {
     overflow-x: scroll;
 }
+/*
 .home-page {
     background-image: url(assets/мобьльные-устройства/главная-парк2.png);
   }
@@ -1237,10 +1238,11 @@ img {vertical-align: middle;}
   }
   .project-private-page {
     background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-  }
+  } */
 }
 
 /*IPHONE 7*/
+/*
 .home-page {
     background-image: url(assets/мобьльные-устройства/главная-парк2.png);
   }
@@ -1258,7 +1260,7 @@ img {vertical-align: middle;}
   }
   .project-private-page {
     background-image: url(assets/мобьльные-устройства/частные-объекты-gfrh2.png);
-  }
+  } */
 /*IPAD*/
 @media only screen 
   and (min-device-width: 768px) 
