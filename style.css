@@ -1195,8 +1195,22 @@ img {vertical-align: middle;}
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .home-page {
+    /*.home-page {
         background-image: url(assets/мобьльные-устройства/главная-парк2.png)!important;
+    }*/
+    .main-bg-img {
+        width: 320px;;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        background-size: cover; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover;
     }
 }
 
