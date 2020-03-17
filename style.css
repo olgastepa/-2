@@ -1198,6 +1198,9 @@ img {vertical-align: middle;}
     /*.home-page {
         background-image: url(assets/мобьльные-устройства/главная-парк2.png)!important;
     }*/
+    .main-bg-img {
+        background-attachment: scroll;
+    }
     .home-page {
         background-image: url(assets/мобьльные-устройства/главная-парк2.png);
     }
